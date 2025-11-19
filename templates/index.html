@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Habit Tracker</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Habit Tracker</h1>
+    <div id="quote"></div>
+
+    <div>
+        <input type="text" id="habitName" placeholder="Habit Name">
+        <select id="frequency">
+            <option value="Daily">Daily</option>
+            <option value="Weekly">Weekly</option>
+        </select>
+        <button onclick="addHabit()">Add Habit</button>
+    </div>
+
+    <table id="habitTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Frequency</th>
+                <th>Streak</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
+

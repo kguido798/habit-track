@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 800px;
+}
+h1 { color: #2c3e50; }
+input, select, button { padding: 8px; margin: 5px; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f4f4f4; }
+button { cursor: pointer; }
+#quote { margin: 15px 0; font-style: italic; color: #27ae60; }
