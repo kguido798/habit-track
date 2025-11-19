@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Morning Exercise",
+    "category": "Health",
+    "created": "2025-11-19T00:00:00",
+    "streak": 3,
+    "history": ["2025-11-16", "2025-11-17", "2025-11-18"]
+  },
+  {
+    "id": 2,
+    "name": "Read 20 pages",
+    "category": "Education",
+    "created": "2025-11-18T00:00:00",
+    "streak": 1,
+    "history": ["2025-11-18"]
+  },
+  {
+    "id": 3,
+    "name": "Drink 2L Water",
+    "category": "Health",
+    "created": "2025-11-19T00:00:00",
+    "streak": 0,
+    "history": []
+  }
+]
